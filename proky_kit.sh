@@ -1,6 +1,6 @@
 function set_proxy {
     local ssid=$(networksetup -getairportnetwork en0 | awk -F: '{print $2}' | sed -e 's/^[[:space:]]*//')
-    
+    #networksetupはMac限定かも
     if [[ "$ssid" == "KIT-WLAP2" ]]; then
         export http_proxy="***************:****" #*** のところは適宜設定しなければいけない
         export https_proxy="***************:****"
