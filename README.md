@@ -6,7 +6,7 @@ git clone "this repo"
 ```
 を実行。
 
-- usr/local/bin 以下にsetprokyを配置(.sh)を消す。
+- usr/local/bin 以下にsetproｘyを配置(.sh)を消す。
   ```zsh
     % set_proky
   ```
