@@ -9,7 +9,8 @@ git clone "this repo"
 - usr/local/bin 以下にsetprokyを配置(.sh)を消す。
   ```zsh
     % set_proky
-  ```を実行すると
+  ```
+  を実行すると
 
   プロキシが通る。
 
